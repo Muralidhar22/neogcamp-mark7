@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Happy Monkey', cursive;
+    color: rgb(148, 61, 61);
+}
+
+.hero-img {
+    border-radius: 50%;
+}
