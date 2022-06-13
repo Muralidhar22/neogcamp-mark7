@@ -12,10 +12,27 @@
 </head>
 
 <body>
-    <header>
-        <h1>I am groot</h1>
-        <img width="300" class="hero-img" src="./images/groot-img.png" alt="groot">
-    </header>
+    <div class="root-el">
+        <header>
+            <h1 class="text-center">I am groot</h1>
+            <img width="300" class="hero-img" src="./images/groot-img.png" alt="groot">
+        </header>
+        <main class="container">
+            <ul>
+                <li class="instructions text-center">Talk (or) Enter text directly into the first box and click
+                    "I'm Groot"(Translates into groot language)
+                </li>
+            </ul>
+            <button class="button" id="talk-btn">Talk <span><img src="./images/mic-img.svg" alt=""></span></button>
+            <textarea id="input" placeholder="You can text/speak (by clicking talk button) in english"></textarea>
+            <h2 class="text-center">Translate</h2>
+            <button class="button" id="translate-btn">I'm groot</button>
+            <p id="output"></p>
+        </main>
+        <footer class="text-center">
+            <p>&copy; | 2022 | <a href="https://muralidhar-portfolio.netlify.app/">Muralidhar</a></p>
+        </footer>
+    </div>
     <script src="./index.js"></script>
 </body>
 
